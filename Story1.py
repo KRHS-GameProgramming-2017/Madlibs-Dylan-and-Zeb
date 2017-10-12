@@ -11,9 +11,10 @@ def story1(debug= False):
 	
 	out = ""
 	out += "When the  " + Device1
-	out += ", shut down, the" + Mythical_Beast 1
-	out += " got upset and " + Swear
-	out += "ran out. "
+	out += ", shut down, the" + Mythical_Beast1
+	out += " got upset and " + Swear1 
+	out += "ran out." + place1
+    out += " 
 	
 	
 	return out
