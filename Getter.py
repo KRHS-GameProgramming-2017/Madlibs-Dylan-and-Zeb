@@ -57,7 +57,17 @@ def isSwear(word):
                  "Dick"
                  "Nipple"
                  "sean"
-                 "noah"
+                 "CNN"
+                 "Fake News"
+                 "Fuck me"
+                 "Carl Azus"
+                 "sex"
+                 "oral sex"
+                 "fuck my ass"
+                 "hump"
+                 "dry hump"
+                 "boner"
+                 "Hard dick"
             ]
 	if word.lower() in swearList:
 		return True
