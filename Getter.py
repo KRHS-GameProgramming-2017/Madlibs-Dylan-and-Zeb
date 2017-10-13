@@ -91,7 +91,30 @@ def isSwear(word):
                  "blowjob"
                  "tiddies"
                  "Titties"
-                 
+                 "Penis"
+                 "Motherfucker"
+                 "bastard"
+                 "Beaver"
+                 "Beef curtains"
+                "Bellend"
+                "Bloodclaat"
+                "Clunge"
+                 "Cock"
+                "Dick"
+               " Dickhead"
+                "Fanny"
+                "Flaps"
+                "Gash"
+                "Knob"
+                "Minge"
+                "Prick"
+                "Punani"
+               " Pussy"
+                "Snatch"
+                "Twat"
+                "whore"
+                
+                
             ]
 	if word.lower() in swearList:
 		return True
