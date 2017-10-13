@@ -5,7 +5,7 @@ def splash(debug = False):
 	output += "*                                     *\n"
 	output += "*        Welcome to Madlibs           *\n"
 	output += "*           Written by                *\n"
-	output += "*         Chris Spooner               *\n"
+	output += "*        Zebulon + Dylan              *\n"
 	output += "*                                     *\n"
 	output += "***************************************\n"
 	return output
