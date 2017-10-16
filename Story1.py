@@ -14,11 +14,6 @@ def story1(debug= False):
     out += "shut down,the" + Mythical_Beast1
     out += "got upset and" + Swear1 
     out += "ran out." + place1
-    out = ""
-    out += "  " + 
-    out += "  " + 
-    out += "  " +  
-    out += "  " + 
     
     out = ""
     out += "  " + 
