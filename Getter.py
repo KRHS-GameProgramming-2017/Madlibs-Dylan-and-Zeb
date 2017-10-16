@@ -116,8 +116,25 @@ def isSwear(word):
                 
                 
             ]
+            
 	if word.lower() in swearList:
 		return True
 	else:
 		return False
-	
+
+
+def getSwear(prompt, debug):
+	if debug: print "--In getSwear function--"
+	goodInput = False
+	while not goodInput:
+		response = raw_input(prompt)
+		if isSwear(response):
+			goodInput = True
+		elif response == "":
+			goodInput = False
+			print "Type something"
+		else:
+			goodInput = False
+        print "Geeze... Your really dirty"
+	return response
+		
