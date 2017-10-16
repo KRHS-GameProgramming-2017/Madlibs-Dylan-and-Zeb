@@ -10,7 +10,8 @@ def story2(debug= False):
     body_part1 = getWord("body_part1: ", debug)
     place1 = getWord("place1: ", debug)
     emotion = getWord("emotion1: ", debug)
-    animal1 = getWord("
+    animal1 = getWord("animal1: ", debug)
+    verb1 = getWord("verb1: ", debug)
     
     
     
