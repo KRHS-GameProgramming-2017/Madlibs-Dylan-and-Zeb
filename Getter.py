@@ -129,7 +129,7 @@ def getSwear(prompt, debug):
 	while not goodInput:
 		response = raw_input(prompt)
 		if isSwear(response):
-			goodInput = True
+ goodInput = True 
 		elif response == "":
 			goodInput = False
 			print "Pls type a answer. Thx."
