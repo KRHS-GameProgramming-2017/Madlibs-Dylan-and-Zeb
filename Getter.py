@@ -132,9 +132,10 @@ def getSwear(prompt, debug):
 			goodInput = True
 		elif response == "":
 			goodInput = False
-			print "Type something"
+			print "Pls type a answer. Thx."
 		else:
 			goodInput = False
-        print "Geeze... Your really dirty"
+        print "Good sir, I will have you know that that is a very naughty word!"
+        
 	return response
 		
