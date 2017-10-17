@@ -2,6 +2,7 @@
 from Screens import *
 from Getter import *
 from Story1 import *
+from Story2 import *
 
 def madlibs(debug = False):
     if debug: print "--Debugging Activated--"
