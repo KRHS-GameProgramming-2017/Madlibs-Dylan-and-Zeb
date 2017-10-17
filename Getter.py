@@ -113,7 +113,7 @@ def isSwear(word):
                 "Snatch"
                 "Twat"
                 "whore"
-                
+                "Fucking"
                 
             ]
             
