@@ -22,7 +22,6 @@ def story2(debug= False):
     out += " After I left the " + worker1
     out += " threw a " + object1
     out += " which made a gash in my " + body_part1
-<<<<<<< HEAD
     out += worker1 + " took me to. " + place1
     out += " once I woke up I was " +emotion1
     out += " while I was bleeding I noticed there was a " +animal1
@@ -30,14 +29,7 @@ def story2(debug= False):
     out += " me while I was trying to " +action1
     out += " I had a huge gash and was bleeding from my " +body_part1
     out += " I was thinking of escaping but he/she had a " +weapon1
-=======
-    out += worker1 + " took me to." + place1
-    out += " once I woke up I was " +emotion1
-    out += " while I was bleeding I noticed there was a " +animal
-    out += " the anima1" +verb1
-    out += ""
-    
->>>>>>> origin/master
+
     return out
     
     
