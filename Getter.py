@@ -68,72 +68,72 @@ def getNumber(prompt, debug):
 def isSwear(word):
     swearList = ["fuck",
                  "shit",
-                 "ass"
-                 "Asshole" 
-                 "A$$"
-                 "BITCH"
-                 "cunt"
-                 "Nigger"
-                 "Dick"
-                 "Nipple"
-                 "sean"
-                 "CNN"
-                 "Fake News"
-                 "Fuck me"
-                 "Carl Azus"
-                 "sex"
-                 "oral sex"
-                 "fuck my ass"
-                 "hump"
-                 "dry hump"
-                 "Breast" 
-                 "boner"
-                 "Hoe"
-                 "Male"
-                 "Female"
-                 "niglet"
-                 "Hard dick"
-                 "porn"
-                 "pornstar"
-                 "fuck me"
-                 "Fuck you"
-                 "Hell"
-                 "god"
-                 "Damn"
-                 "Damnit"
-                 "Shitty"
-                 "Nutter fuckers"
-                 "Porno"
-                 "Fuck me in the ahole"
-                 "Kiss"
-                 "Butt"
-                 "Blow job"
-                 "blowjob"
-                 "tiddies"
-                 "Titties"
-                 "Penis"
-                 "Motherfucker"
-                 "bastard"
-                 "Beaver"
-                 "Beef curtains"
-                "Bellend"
-                "Bloodclaat"
-                "Clunge"
-                 "Cock"
-                "Dick"
-               " Dickhead"
-                "Fanny"
-                "Flaps"
-                "Gash"
-                "Knob"
-                "Minge"
-                "Prick"
-                "Punani"
-               " Pussy"
-                "Snatch"
-                "Twat"
-                "whore"
-                "Fucking"
+                 "ass",
+                 "Asshole", 
+                 "A$$",
+                 "BITCH",
+                 "cunt",
+                 "Nigger",
+                 "Dick",
+                 "Nipple",
+                 "sean",
+                 "CNN",
+                 "Fake News",
+                 "Fuck me",
+                 "Carl Azus",
+                 "sex",
+                 "oral sex",
+                 "fuck my ass",
+                 "hump",
+                 "dry hump",
+                 "Breast" ,
+                 "boner",
+                 "Hoe",
+                 "Male",
+                 "Female",
+                 "niglet",
+                 "Hard dick",
+                 "porn",
+                 "pornstar",
+                 "fuck me",
+                 "Fuck you",
+                 "Hell",
+                 "god",
+                 "Damn",
+                 "Damnit",
+                 "Shitty",
+                 "Nutter fuckers",
+                 "Porno",
+                 "Fuck me in the ahole",
+                 "Kiss",
+                 "Butt",
+                 "Blow job",
+                 "blowjob",
+                 "tiddies",
+                 "Titties",
+                 "Penis",
+                 "Motherfucker",
+                 "bastard",
+                 "Beaver",
+                 "Beef curtains",
+                "Bellend",
+                "Bloodclaat",
+                "Clunge",
+                 "Cock",
+                "Dick",
+               " Dickhead",
+                "Fanny",
+                "Flaps",
+                "Gash",
+                "Knob",
+                "Minge",
+                "Prick",
+                "Punani",
+               " Pussy",
+                "Snatch",
+                "Twat",
+                "whore",
+                "Fucking",
                 
             ]
             
@@ -150,12 +150,14 @@ def getSwear(prompt, debug):
         response = raw_input(prompt)
         if isSwear(response):
             goodInput = True
+            print "Good sir, I will have you know that that is a very naughty word!"
         elif response == "":
             goodInput = False
             print "Pls type a answer. Thx."
         else:
             goodInput = False
-        print "Good sir, I will have you know that that is a very naughty word!"
+            print "more of a swear than that"
+        
         
     return response
         
