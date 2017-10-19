@@ -25,5 +25,9 @@ def madlibs(debug = False):
             print story2()
             raw_input("Press Enter to Continue")
             
+        elif response == "3":
+            print story2()
+            raw_input("Press Enter to Continue")
+            
     
 madlibs(True)

@@ -17,7 +17,7 @@ def menu(debug = False):
 	output += "*Main menu                            *\n"
 	output += "*1) A story                           *\n"
 	output += "*2) Another story                     *\n"
-	output += "*3)                                   *\n"
+	output += "*3) ANOTHER story                     *\n"
 	output += "*Q) Exit                              *\n"
 	output += "***************************************\n"
 	return output
