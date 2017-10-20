@@ -23,7 +23,7 @@ def getMenuResponse(debug = False):
               response == "exit"):
             goodInput = True
             response = "q"
-         elif (response == "Zebbecool"):
+        elif (response == "zebbecool"):
             goodInput = True
             response = "zeb"
         else:
