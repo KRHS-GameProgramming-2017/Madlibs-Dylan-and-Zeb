@@ -11,10 +11,10 @@ def story1(debug= False):
     place1 = getWord("A place: ", debug)
     
     out = ""
-    out += "When the " + device1
+    out += "When the " + device(s)1
     out += " shut down,the " + mythicalbeast
-    out += " got upset and " + swear1 
-    out += " ran out of " + place1
+    out += " got upset and " + swear ending with ing 
+    out += " ran out of the " + place1
     
       
     
