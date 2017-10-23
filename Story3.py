@@ -5,7 +5,7 @@ from Getter import *
 def story3(debug= False):
     if debug: print "--In story1 function--"
     
-    = getWord(": ", debug)
+    #= getWord(": ", debug)
     object1 = getWord("object1: ", debug)
     weapon1 = getWord("weapon1: ", debug)
     place1 = getWord("place1: ", debug)
