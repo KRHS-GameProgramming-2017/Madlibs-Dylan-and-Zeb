@@ -166,6 +166,30 @@ def getSwear(prompt, debug):
             goodInput = False
             print "more of a swear than that"
         
+
+def getWeapon(prompt, debug):
+    if debug: print "--In getWeapon function--"
+    weapons = ["gun",
+               "knife",
+               "bomb",
+               "shank",
+               "tree",
+               "shoe",
+               "pencil",
+               "air craft",
+               "pistol",
+               "WOOD SHANK"]
+               
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        if response in weapons:
+            goodInput = True
+        else:
+            goodInput = False
+            print "I don't know what the weapon is"        
+        
+        
         
     return response
         

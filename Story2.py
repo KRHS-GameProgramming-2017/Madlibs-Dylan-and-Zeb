@@ -19,11 +19,11 @@ def story2(debug= False):
     
     
     out = ""
-    out += " After I left the " + worker1
+    out += " After I left, the " + worker1
     out += " threw a " + object1
-    out += " which made a gash in my " + body_part1
+    out += " .which made a gash in my " + body_part1
     out += worker1 + " took me to. " + place1
-    out += " once I woke up I was " +emotion1
+    out += " once I woke up I was feeling " +emotion1
     out += " while I was bleeding I noticed there was a " +animal1
     out += " the anima1 started " +verb1
     out += " me while I was trying to " +action1

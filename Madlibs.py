@@ -29,7 +29,7 @@ def madlibs(debug = False):
             raw_input("Press Enter to Continue")
             
         elif response == "3":
-            print story2()
+            print story3()
             raw_input("Press Enter to Continue")
             
         elif response == "zeb":
